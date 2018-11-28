@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-top: 80px;
+}
+.container1{
+  width: 350px;
+  height: 400px;
+  background: red;
+  display: inline-block;
+}
+.card-image {
+    background: url('http://facebook.design/public/images/card_resource_desktopkit@2x.png');
+    width: 350px;
+    height: 300px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.container2{
+  position: relative;
+  vertical-align: top;
+  top: 0;
+  bottom:0;
+  left: 400px;
+  right:0;
+  width: 350px;
+  height: 400px;
+  background: black;
+}
+.black-box1 {
+  width: 350px;
+  height: 100px;
+  background: black;
+}
+.black-box2 {
+  width: 350px;
+  height: 100px;
+  background: black;
+}

@@ -1,0 +1,47 @@
+.container {
+   margin: 200px auto;    
+}
+body {
+    font-family:sans-serif;
+}
+caption {
+    font-weight: normal;
+    font-size: 26px;
+    text-align: left;
+    color: #b22222; 
+}
+
+#time {
+    text-align: left;
+}
+#hmm, #temp, .col2, .hum {
+    text-align: right;
+}
+
+.grey {
+    background: #ddd;
+    text-align: left;
+    color: #616060;
+}
+
+table { 
+    width: 600px; 
+    border-collapse: collapse; 
+    background: #fff;
+    box-shadow: 1px 10px 30px #a8a8a8;
+}
+  
+th { 
+    background: #b22222; 
+    color: rgb(240, 240, 240); 
+    font-weight: normal;
+    font-size: 16px; 
+    padding: 20px;    
+}
+
+td { 
+    padding: 20px; 
+    border-bottom: 1px solid #ccc; 
+}
+
+

@@ -1,0 +1,32 @@
+
+
+header {
+    background: steelblue;
+    padding: 70px;
+}
+section {
+    background: grey;
+    padding: 70px;
+}
+footer {
+    background: steelblue;
+    padding: 70px;
+}
+.box {
+    display: inline-block;
+}
+.box1  {
+    background: black;
+    height: 200px;
+    width: 30%;
+}
+.box2  {
+    background: black;
+    height: 200px;
+    width: 30%;
+}
+.box3  {
+    background: black;
+    height: 200px;
+    width: 30%;
+}

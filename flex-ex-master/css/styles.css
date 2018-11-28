@@ -1,0 +1,59 @@
+.hero-container {
+    min-height: 100vh;
+    background: linear-gradient(120deg, rgba(0,0,0,0.9), rgba(0,0,0,0)), url('../img/hero.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 400%;
+    color: white;
+}
+
+.content {
+    background-color: brown;
+    width:70%;
+    margin: 0 auto;     
+    padding: 10px;
+    display:flex;
+    flex-direction: coloumn;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+        
+}
+
+.link-container {
+    height: 50px;
+    width: 100%;
+    margin: 10px;   
+    display:flex; 
+    align-items: center;   
+    flex-direction: row; 
+    justify-content: space-between;
+    max-width: 40%;   
+    
+
+}
+
+p {
+    color: white;
+    font-size: 150%;
+    padding: 10px;
+    
+}
+
+a {
+    color: white;
+    margin: 0;
+    font-size: 40px;
+    flex-basis: 500px;
+
+}
+
+
+

@@ -1,0 +1,16 @@
+.main, .secondary {
+    float: left;
+}
+.main {
+    width: 60%;
+    margin-right: 20px;
+}
+.secondary {
+    /* width: 40%; */
+    width:calc(40% - 20px);
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

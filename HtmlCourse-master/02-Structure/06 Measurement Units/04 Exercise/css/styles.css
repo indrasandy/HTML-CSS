@@ -1,0 +1,38 @@
+.blue {
+    width:900px;
+}
+
+.box1{
+    background: steelblue;
+    height: 100px;
+    width: 200px;
+}
+.box2{
+    background: steelblue;
+    height: 100px;
+    width: 500px;
+}
+.box3{
+    background: steelblue;
+    height: 100px;
+    width: 900px;
+}
+.orange {
+    width:100%;
+}
+
+.box4{
+    background: orange;
+    height: 100px;    
+    width: 20%;
+}
+.box5{
+    background: orange;
+    height: 100px;
+    width: 50%;
+}
+.box6{
+    background: orange;
+    height: 100px;
+    width: 90%;
+}

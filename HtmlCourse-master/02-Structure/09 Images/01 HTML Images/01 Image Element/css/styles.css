@@ -1,0 +1,45 @@
+header {
+height: 80px;
+background: #222;
+}
+
+.hero {
+    height: 600px;
+    background: #444;
+    background: linear-gradient(320deg,rgba(255, 255, 255, 0.027), white), 
+    url('../img/img-2.jpg') ;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.img-container {
+    width:100%; 
+}
+
+section {
+    margin: 80px auto;
+}
+
+img {
+    margin: 0 auto;
+	width:100%;
+	
+}
+
+.card {
+    height:400px;
+    width:300px;
+    background: grey;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    box-shadow: 7px 5px 10px 0px #222;
+}
+.card1 {
+    height:480px;
+    width:30%;
+    background: grey;
+    display: inline-block;
+    margin: 1%;
+    vertical-align: top;    
+}

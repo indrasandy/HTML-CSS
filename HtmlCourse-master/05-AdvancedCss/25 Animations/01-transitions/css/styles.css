@@ -1,0 +1,42 @@
+body {
+    padding: 80px;
+}
+
+
+/* transitions */
+/* .box { 
+    height: 100px;
+    width: 100px;
+    background: blueviolet;
+    transition-duration: 1s;
+    transition-property: background width;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+.box:hover {
+    background: rgb(0, 255, 179);
+    width: 400px;
+}
+*/
+/* transforms */
+.container {
+    background: green;
+    height: 100px;
+    width: 100px;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background: blueviolet;
+    transition: 0.2s;
+    /* transform: rotate(120deg); */
+    /* transform: scale(1); */
+    /* transform-origin: 0% 0%; */
+    transform: translate(0px, 0px);
+}
+
+.container:hover .box {
+    /* transform: scale(1.1); */
+    /* transform: rotate(120deg); */
+    transform: translate(0px, 100px);
+}

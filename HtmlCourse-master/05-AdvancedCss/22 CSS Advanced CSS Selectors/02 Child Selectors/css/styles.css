@@ -1,0 +1,42 @@
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+    padding-top: 100px;
+}
+
+a {
+    padding: 10px 20px;
+    background: #09c;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:first-child {
+    background: black;
+}
+a:nth-child(3) {
+    background: red;
+}
+a:nth-child(even) {
+    background: rgb(196, 113, 36);
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
